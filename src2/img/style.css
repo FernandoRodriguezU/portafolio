@@ -1,0 +1,157 @@
+@keyframes movimientodeparrafo {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{margin-left: 0%;
+        width: 100%;
+            }
+        
+        }
+        :root{
+            --main-color:aqua;
+            --text-color:rgb(241, 241, 241);
+            --text-color-hover:blue;
+            --text-color-parrafo:grey;
+            --text-color-parrafo-titulo:red;
+            --text: white;
+        }
+    #main__menu{
+            background:linear-gradient(90deg,rgb(65, 63, 63),rgb(14, 14, 14));
+            color: rgb(244, 238, 238);
+            top: 0%;
+            left: 0%;   
+            
+        
+        }
+        .main__menu {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-self: center;
+            align-items: flex-start;
+          
+            
+            
+            }
+        .menu1 ul a::before {
+            content: "♥";
+          }
+        
+        .menu1 ul {
+          
+            list-style:none;
+            padding: 20px 10px;
+            display: flex;
+            font-size: larger;
+           
+         }
+         .menu1 ul li {
+             margin-right: 150px; 
+          
+         }
+         .menu1__txt  a::before {
+            content: "♥";
+          }
+          .menu1__img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+        }
+       
+            .cuerpo{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+             
+                salign-self: center;
+                align-items: flex-start;
+            }
+            h2{
+                color: rgb(233, 230, 230);
+            }
+            .cuerpo li{
+                list-style:none;
+                padding: 20px 10px;
+                display: flex;
+                font-size: larger;  
+            }
+           
+       body {
+        background:linear-gradient(90deg,rgb(65, 63, 63),rgb(14, 14, 14));
+            }
+          
+            .contenedorimg{
+                height: 10%;
+                position:static;
+                display:inline-block;
+                text-align: left;
+             
+              }
+              .parrafo2{
+             
+                width: 700px;
+                margin: -344px 10px 101px 900px;  
+                font-size: 1.6rem;
+                color:var(--text);
+            }
+            .img06{
+                margin: -62px 0px 10px 1120px;
+            }
+            .btn{
+                font-size: 45px;
+                color:rgb(243, 236, 202);
+                font-family: 'Archivo Black', sans-serif;
+                position: absolute;
+                top: 20%;
+                left: 34%;
+                
+              }
+              .btn {
+                background: none; 
+                color: #f3f3e3; 
+                padding: 16px 20px;
+                border-radius: 14px;
+                position: absolute;
+                z-index: 1;
+                overflow: hidden;
+                display: inline-block;
+              }
+              .btn:hover {
+                color: rgb(238, 237, 176); 
+              }
+              .btn::after {
+                content: "";
+                background: #000007; 
+                border-radius: 14px;
+                position: absolute;
+                z-index: -1;
+                padding: 16px 20px;
+                display: block;
+                top: 0;
+                bottom: 0;
+                left: -100%;
+                right: 100%;
+                -webkit-transition: all 0.35s;
+                transition: all 0.35s;
+              }
+              .btn:hover::after {
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                -webkit-transition: all 0.35s;
+                transition: all 0.35s;
+              }
+             
+               
+                .parrafo1 {
+                    width: 700px;
+                    margin: -700px 1px 101px 588px;  
+                    color:var(--text-color);
+                    font-size: 1.6rem;
+                }
+              
